@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	c "github.com/solairerove/go-encoding-playground/crypt"
 	m "github.com/solairerove/go-encoding-playground/marshal"
 	s "github.com/solairerove/go-encoding-playground/sort"
 	u "github.com/solairerove/go-encoding-playground/unmarshal"
@@ -15,4 +16,6 @@ func main() {
 	u.JSONUnmarshalling()
 
 	s.Sorting()
+
+	c.AwesomeCrypt()
 }
