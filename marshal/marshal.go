@@ -6,9 +6,9 @@ import (
 )
 
 type person struct {
-	First string
-	Last  string
-	Age   int
+	First string `json:"first"`
+	Last  string `json:"last"`
+	Age   int    `json:"age"`
 }
 
 // JSONMarshalling tbd
